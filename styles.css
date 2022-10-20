@@ -1,0 +1,116 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background: #DFDFE1;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+/*globales*/
+.container{
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*barra de navegación*/
+.logo{
+    width: 91px;
+    height: 80px;
+}
+.container_nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+.nav_element{
+    list-style: none;
+}
+.nav_link{
+    text-decoration: none;
+}
+.nav_list{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav_list :hover{
+
+    color: rgb(161, 161, 161);
+}
+
+/*Imagen principal*/
+
+.hero{
+    width: 100vw;
+    height: 60vh;
+    background-image: url(./images/img_principal.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.container_hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}   
+.texto_hero{
+    font-size: 2.5rem;
+    font-family: 'Rambla';
+    color: #F5F5F5;
+    font-weight: 700;
+    margin-bottom: 1.375rem;
+}
+.button_hero{
+    background: #73628A;
+    color: #DFDFE1;
+    width: 9.5rem;
+    height: 3.25rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+/* section reviews*/
+
+.section_reviews{
+margin-top: 3.5rem;
+display: flex;
+gap: 3rem;
+}
+.conteiner_review{
+    background-color: #F5F5F5;
+    width: 40vw;
+    height: 12.75rem;
+    border-radius: 10px;
+
+    padding-top:1.875rem;
+    display: flex;
+    gap: 2.5rem;
+    }
+.img_review{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+.text_review{
+    padding-top: .5rem;
+    padding-right: .5rem;
+    margin-bottom: 1.5rem;
+}
+.img_star{
+    width: 2rem;
+    height: 1.80rem; 
+}
