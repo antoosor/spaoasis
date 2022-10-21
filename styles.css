@@ -1,3 +1,6 @@
+/*Foto de <a href="https://unsplash.com/@raduflorin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Radu Florin</a> en <a href="https://unsplash.com/es?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
+
 * {
     border: 0;
     padding: 0;
@@ -24,22 +27,29 @@ body {
     width: 91px;
     height: 80px;
 }
-
+.container_main{
+    background-color: #73628A;
+        width: 100%;
+        height: 100;
+}
 .container_nav {
     display: flex;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: .5rem;
 
 }
 
 .nav_element {
-    list-style: none;
+    list-style: none; 
 }
 
 .nav_link {
     text-decoration: none;
+    color: #DFDFE1;
 }
 
 .nav_list {
@@ -91,6 +101,7 @@ body {
     font-size: 1.5rem;
     font-weight: 700;
 }
+
 /*Seccion de servicios*/
 .los_mas_pedidos{
     width: 100%;
@@ -182,4 +193,63 @@ body {
 .img_star {
     width: 2rem;
     height: 1.80rem;
+}
+
+/*Section benefits*/
+
+.section_benefits
+{
+    width: 100%;
+    height: 35.75rem;
+    margin-top: 3.5rem;
+    color: #DFDFE1;
+}
+.conteiner_benefits{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,5.9583rem);
+
+
+}
+.conteiner_benefits_image{
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    object-fit: cover;
+
+}
+.container_list{
+padding-top: 1.5rem;
+
+}
+.conteiner_benefits_texto{
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5ec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 3;
+grid-column-end: 7;
+grid-row-start: 3;
+grid-row-end: 7;
+
+    
+
+}
+.conteiner_benefits_title{
+    font-weight: bolder;
+    color: #73628A;
+}
+.conteiner_benefits_list{
+    color: #73628A;
+    font-weight: lighter;
+    line-height: 3rem;
+    
 }
