@@ -1,16 +1,18 @@
-*{
+* {
     border: 0;
     padding: 0;
     box-sizing: border-box;
     margin: 0;
 }
-body{
+
+body {
     background: #DFDFE1;
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
 }
+
 /*globales*/
-.container{
+.container {
 
     width: 90%;
     margin-left: auto;
@@ -18,11 +20,12 @@ body{
 }
 
 /*barra de navegación*/
-.logo{
+.logo {
     width: 91px;
     height: 80px;
 }
-.container_nav{
+
+.container_nav {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -30,25 +33,28 @@ body{
     margin-top: 2rem;
 
 }
-.nav_element{
+
+.nav_element {
     list-style: none;
 }
-.nav_link{
+
+.nav_link {
     text-decoration: none;
 }
-.nav_list{
+
+.nav_list {
     display: flex;
     gap: 2rem;
 }
 
-.nav_list :hover{
+.nav_list :hover {
 
     color: rgb(161, 161, 161);
 }
 
 /*Imagen principal*/
 
-.hero{
+.hero {
     width: 100vw;
     height: 60vh;
     background-image: url(./images/img_principal.jpg);
@@ -56,7 +62,8 @@ body{
     background-position: center;
 
 }
-.container_hero{
+
+.container_hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,15 +73,17 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-}   
-.texto_hero{
+}
+
+.texto_hero {
     font-size: 2.5rem;
     font-family: 'Rambla';
     color: #F5F5F5;
     font-weight: 700;
     margin-bottom: 1.375rem;
 }
-.button_hero{
+
+.button_hero {
     background: #73628A;
     color: #DFDFE1;
     width: 9.5rem;
@@ -82,35 +91,95 @@ body{
     font-size: 1.5rem;
     font-weight: 700;
 }
-/* section reviews*/
+/*Seccion de servicios*/
+.los_mas_pedidos{
+    width: 100%;
+    height: 460px;
 
-.section_reviews{
-margin-top: 3.5rem;
-display: flex;
-gap: 3rem;
 }
-.conteiner_review{
-    background-color: #F5F5F5;
-    width: 40vw;
-    height: 12.75rem;
-    border-radius: 10px;
-
-    padding-top:1.875rem;
+.container_los_mas_pedidos{
+    width: 90%;
+    margin: 0 auto;
     display: flex;
-    gap: 2.5rem;
-    }
-.img_review{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    justify-content: space-between;
+}
+.los_mas_pedidos_title{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-right: .5rem;
+    margin-bottom: 1.5rem;
+}
+.servicio{
+    width:19.8125rem;
+    height: 20.875rem;
+    background-color: #F5F5F5;
+    text-align: center; 
+
 
 }
-.text_review{
+.img_producto{
+    width: 95%;
+    margin: .5rem auto;
+    border-radius: .5rem;
+}
+
+
+
+/* section reviews*/
+#sobre_nosotros{
+    padding-bottom: 1rem;
+}
+.section_reviews_text{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2.18rem;
+    padding-bottom: 3.625rem;
+
+}
+
+.section_reviews {
+    width: 100%;
+    height: 28.75rem;
+    background-color: white;
+    margin-top: 3.5rem;
+
+}
+
+.conteiner_review {
+    background-color: #DFDFE1;
+    width: 20.625rem;
+    height: 12.75rem;
+    border-radius: 0.625rem;   
+    padding-top: 1.875rem;
+    display: flex;
+
+}
+
+.Container_section_reviews {
+    display: flex;
+    justify-content:space-around;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.img_review {
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 50%;
+    background-color: #73628A;
+    margin: 0 1.375rem;
+
+}
+
+.text_review {
     padding-top: .5rem;
     padding-right: .5rem;
     margin-bottom: 1.5rem;
 }
-.img_star{
+
+.img_star {
     width: 2rem;
-    height: 1.80rem; 
+    height: 1.80rem;
 }
