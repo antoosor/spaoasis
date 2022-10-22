@@ -9,7 +9,7 @@
 }
 
 body {
-    background: #DFDFE1;
+    background: #f3e0e9;
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
 }
@@ -24,11 +24,11 @@ body {
 
 /*barra de navegación*/
 .logo {
-    width: 91px;
-    height: 80px;
+    width: 5.6875rem;
+    height: 5rem;
 }
 .container_main{
-    background-color: #73628A;
+    background-color: #90506D;
         width: 100%;
         height: 100;
 }
@@ -38,7 +38,7 @@ body {
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: .5rem;
 
 }
@@ -61,13 +61,15 @@ body {
 
     color: rgb(161, 161, 161);
 }
-
+.nav_menu{
+    display: none;
+}
 /*Imagen principal*/
 
 .hero {
     width: 100vw;
     height: 60vh;
-    background-image: url(./images/img_principal.jpg);
+    background-image: url(./images/imagenprincipal1.jpg);
     background-size: cover;
     background-position: center;
 
@@ -94,7 +96,7 @@ body {
 }
 
 .button_hero {
-    background: #73628A;
+    background: #90506D;
     color: #DFDFE1;
     width: 9.5rem;
     height: 3.25rem;
@@ -113,6 +115,7 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    gap: 1rem;
 }
 .los_mas_pedidos_title{
     width: 90%;
@@ -120,17 +123,21 @@ body {
     padding-top: 2rem;
     padding-right: .5rem;
     margin-bottom: 1.5rem;
+    color: #4D2958;
 }
 .servicio{
     width:19.8125rem;
     height: 20.875rem;
-    background-color: #F5F5F5;
-    text-align: center; 
+    background-color: #664171;
+    text-align: center;
+    color: #ffe6f2; 
+    box-shadow: 2px 5px 10px rgb(41, 41, 41);
 
 
 }
 .img_producto{
     width: 95%;
+    height: 12.375rem;
     margin: .5rem auto;
     border-radius: .5rem;
 }
@@ -140,12 +147,14 @@ body {
 /* section reviews*/
 #sobre_nosotros{
     padding-bottom: 1rem;
+    color: #4D2958;
 }
 .section_reviews_text{
     width: 90%;
     margin: 0 auto;
     padding-top: 2.18rem;
     padding-bottom: 3.625rem;
+    color: #4D2958;
 
 }
 
@@ -158,20 +167,27 @@ body {
 }
 
 .conteiner_review {
-    background-color: #DFDFE1;
+    background-color: #EAEDBE;
     width: 20.625rem;
     height: 12.75rem;
     border-radius: 0.625rem;   
     padding-top: 1.875rem;
-    display: flex;
+    display: flex; 
+    box-shadow: 2px 5px 10px rgb(41, 41, 41);
 
+}
+.container_texto_star{
+    display: flex;
+    flex-direction: column;
 }
 
 .Container_section_reviews {
-    display: flex;
+
     justify-content:space-around;
     width: 90%;
     margin: 0 auto;
+    display: flex;
+    gap: 2rem;
 
 }
 
@@ -188,6 +204,7 @@ body {
     padding-top: .5rem;
     padding-right: .5rem;
     margin-bottom: 1.5rem;
+    color: #4D2958;
 }
 
 .img_star {
@@ -221,6 +238,8 @@ body {
     grid-row-start: 1;
     grid-row-end: 5;
     object-fit: cover;
+    box-shadow: 2px 5px 10px rgb(41, 41, 41);
+    
 
 }
 .container_list{
@@ -239,17 +258,102 @@ padding-top: 1.5rem;
 grid-column-end: 7;
 grid-row-start: 3;
 grid-row-end: 7;
+box-shadow: 2px 5px 10px rgb(41, 41, 41);
 
     
 
 }
 .conteiner_benefits_title{
     font-weight: bolder;
-    color: #73628A;
+    color: #4D2958;
 }
 .conteiner_benefits_list{
     color: #73628A;
     font-weight: lighter;
     line-height: 3rem;
+
+}
+@media (max-width:600px){
+
+    /*seccion nav*/
+    .logo {
+        width: 4.1875rem;
+        height: 3.5rem;
+    }
+
+
+    .nav_menu{
+        display: flex;
+    }
+    .nav_list {
+        display: flex;
+        position: fixed;
+        background-color: #90506dc5;
+        top: 68px;
+ 
+        right:0;
+        left: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        transform: translatex(100%);
+        transition: transform .3s;
+
+    }
+    .nav_list--show{
+        transform: translateX(0);
+    }
+    .container_main{
+    background-color: #90506D;
+    position: fixed
+}
+
+/*Section los  3  más pedidos*/
+.container_los_mas_pedidos{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.servicio{
+    width:100%;
+    height: 20.875rem;
+    background-color: #664171;
+    text-align: center;
+    color: #ffe6f2; 
+    box-shadow: 2px 5px 10px rgb(41, 41, 41);
+
+
+}
+.los_mas_pedidos{
+    height: 1200px;
+
+}
+
+/*section reviews*/
+.conteiner_review {
+    background-color: #EAEDBE;
+    border-radius: 0.625rem;   
+    padding-top: 1.875rem;
+
+}
+.section_reviews {
+    height: 70.75rem;
+}
+.Container_section_reviews {
+    width: 95%;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.conteiner_review {
+    width: 100%;
+}
+/*section benefits*/
+
     
 }
