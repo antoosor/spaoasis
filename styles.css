@@ -195,8 +195,8 @@ body {
     width: 6.25rem;
     height: 6.25rem;
     border-radius: 50%;
-    background-color: #73628A;
-    margin: 0 1.375rem;
+    padding-left: 1rem;
+    padding-right: .5rem
 
 }
 
@@ -255,10 +255,10 @@ padding-top: 1.5rem;
     align-items: center;
     justify-content: center;
     grid-column-start: 3;
-grid-column-end: 7;
-grid-row-start: 3;
-grid-row-end: 7;
-box-shadow: 2px 5px 10px rgb(41, 41, 41);
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    box-shadow: 2px 5px 10px rgb(41, 41, 41);
 
     
 
@@ -271,6 +271,121 @@ box-shadow: 2px 5px 10px rgb(41, 41, 41);
     color: #73628A;
     font-weight: lighter;
     line-height: 3rem;
+
+}
+
+
+/* ---------------paage nosotros-----------------*/
+.container_main_nosotros{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction:column;
+    width: 90%;
+    height: 50rem;
+    margin: 0 auto;
+}
+.container_user1{
+    display: flex;
+    width: 100%;
+    height: 45rem;
+
+}
+.img_nosotros{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin-top: 5.9375rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+
+
+
+}
+.container_nosotros_texto{
+    padding-top: 9.375rem;
+    width: 41rem;
+
+
+}
+.puesto_nosotros_texto{
+    padding-bottom: 3.375rem;
+
+}
+.parrafo_nosotros_texto{
+    padding-bottom: 1.8125rem;
+}
+.container_logros{
+    background-color: #c9c9c9;
+    width: 100%;
+    height: 11rem;
+}
+
+.container_users{
+    display: flex;
+    flex-direction: column;
+
+}
+/*------------page contacto------*/
+.container_main_contacto{
+    background-color: #F5F5F5;
+    width: 90%;
+    height: 46rem;
+    margin: 0 auto;
+    display: flex;
+    color: #F5F5F5;
+}
+.container_mensaje_contacto{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.mensaje_contac{
+    width: 60%;
+    height: 30rem;
+    background-color: #73628A;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.redes_sociales{
+    background-color: transparent;
+    width: 60%;
+    height: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.caja_texto{
+    width: 70%;
+    height: 2rem;
+}
+.caja_texto_mensaje{
+    width: 70%;
+    height: 10rem;
+}
+
+.label_nombre{
+    padding-top: 3rem;
+}
+.Submit{
+    padding: .6rem 1.2rem;
+    color: #90506D;
+    margin-top: 2.7rem;
+}
+.Submit:hover{
+    background-color: #d6d6d6;
+}
+.img_redes{
+    display: flex;
+    width: 4rem; 
 
 }
 @media (max-width:600px){
