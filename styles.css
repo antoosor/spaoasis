@@ -1,5 +1,13 @@
-/*Foto de <a href="https://unsplash.com/@raduflorin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Radu Florin</a> en <a href="https://unsplash.com/es?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  */
+/* imagenes principl 1 -  colocando aceite den las manos
+Foto de <a href="https://unsplash.com/@caishan119?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">alan caishan</a> en <a href="https://unsplash.com/es/s/fotos/spa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Imagene principal 2 -  colocando mascarilla con brocha
+Foto de <a href="https://unsplash.com/@raphaellovaski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Raphael Lovaski</a> en <a href="https://unsplash.com/es/s/fotos/spa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+imagen princiap 3 - mostrando uñas
+Foto de <a href="https://unsplash.com/@designecologist?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">DESIGNECOLOGIST</a> en <a href="https://unsplash.com/es/s/fotos/u%C3%B1as?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Imagen principal 4 - colocando aceite en la mano
+Foto de <a href="https://unsplash.com/@christinhumephoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christin Hume</a> en <a href="https://unsplash.com/es/s/fotos/spa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+*/
 
 * {
     border: 0;
@@ -9,7 +17,7 @@
 }
 
 body {
-    background: #f3e0e9;
+    background: #EDEDE9;
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
 }
@@ -28,7 +36,7 @@ body {
     height: 5rem;
 }
 .container_main{
-    background-color: #90506D;
+    background-color: #EDEDE9;
         width: 100%;
         height: 100;
 }
@@ -49,7 +57,7 @@ body {
 
 .nav_link {
     text-decoration: none;
-    color: #DFDFE1;
+    color: #BB8C71;
 }
 
 .nav_list {
@@ -59,7 +67,7 @@ body {
 
 .nav_list :hover {
 
-    color: rgb(161, 161, 161);
+    color: #83604b;
 }
 .nav_menu{
     display: none;
@@ -68,8 +76,9 @@ body {
 
 .hero {
     width: 100vw;
-    height: 60vh;
-    background-image: url(./images/imagenprincipal1.jpg);
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url(./images/Finales/image_backgraund1.jpg);
+    
     background-size: cover;
     background-position: center;
 
@@ -89,22 +98,29 @@ body {
 
 .texto_hero {
     font-size: 2.5rem;
-    font-family: 'Rambla';
-    color: #F5F5F5;
-    font-weight: 700;
+    font-family: 'Lexend Deca';
+    color: #F5EBE0;
+    font-weight: 600;
     margin-bottom: 1.375rem;
 }
 
 .button_hero {
-    background: #90506D;
-    color: #DFDFE1;
-    width: 9.5rem;
-    height: 3.25rem;
-    font-size: 1.5rem;
-    font-weight: 700;
+    background: transparent;
+    border: 5px solid #E3D5CA;
+    color: #F5EBE0;
+    width: 15.3125rem;
+    height: 4.6875rem;
+    border-radius: 5PX;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.button_hero:hover{
+    background: #e3d5ca71;
+    color: #fcfcfc;
+    border: 5px solid #fff7f1;
 }
 
-/*Seccion de servicios*/
+/*Seccion de  LOS 3 MÁS PEDIDOS servicios
 .los_mas_pedidos{
     width: 100%;
     height: 460px;
@@ -142,34 +158,135 @@ body {
     border-radius: .5rem;
 }
 
+*/
+/*Seccion de Bienvenida 1 */
+.section_bienvenida1{
+    text-align: center;
+    color: #BB8C71;
+    margin-top: 2rem;
+}
+.spa_oasis{
+    color: #BA0203;
+}
+.paragraph_bienvenida{
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    font-size: 1rem;
+}
+
+/*Seccion de Bienvenida 2 */
+.section_bienvenida2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/Finales/image_backgraund2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 30rem;
+}
+.paragraph_subtitle1{
+    font-family: 'Lexend Deca';
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-align: center;    
+    color: #BB8C71;
+    width: 80%;  
+    margin: 0 auto;
+    padding-top: 4rem;
+}
+.paragraph_texto_bienvenida2{
+    width: 80%;
+    margin: 0 auto;
+    color: #F5EBE0;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center; 
+    padding-top: 2.5rem;
+
+}
+.section_texto{
+    width: 75%;
+    margin: 0 auto;
+}
+/*Seccion de Beneficios */
+.title_beneficios{
+    font-family: 'Poppins';
+font-weight: 400;
+font-size: 36px;
+text-align: center;
+color: #BB8C71;
+padding-top: 3.0625rem;
+padding-bottom: 6.375rem;
+
+}
+.container_beneficios{
+    color: #BB8C71;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 6.375rem;
+}
+.container_beneficios_items{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.item_box_interno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.icon{  
+margin-bottom: 1.5rem;
+
+}
+.gg-check-o{
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: .2rem;
+    
+}
+.gg-sun{
+    margin-bottom: .2rem;
+}
+.gg-heart{
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
 
 
 /* section reviews*/
 #sobre_nosotros{
     padding-bottom: 1rem;
     color: #4D2958;
+    text-align: center;
 }
 .section_reviews_text{
     width: 90%;
     margin: 0 auto;
     padding-top: 2.18rem;
     padding-bottom: 3.625rem;
-    color: #4D2958;
+    color: #2600ad;
 
 }
 
 .section_reviews {
     width: 100%;
-    height: 28.75rem;
-    background-color: white;
+    min-height: 28.75rem;
     margin-top: 3.5rem;
 
 }
 
 .conteiner_review {
-    background-color: #EAEDBE;
+    background-color: #3F4E61;
     width: 20.625rem;
-    height: 12.75rem;
+    min-height: 12.75rem;
     border-radius: 0.625rem;   
     padding-top: 1.875rem;
     display: flex; 
@@ -204,7 +321,7 @@ body {
     padding-top: .5rem;
     padding-right: .5rem;
     margin-bottom: 1.5rem;
-    color: #4D2958;
+    color: #F5EBE0;
 }
 
 .img_star {
